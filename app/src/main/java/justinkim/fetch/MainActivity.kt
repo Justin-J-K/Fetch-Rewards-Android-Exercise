@@ -22,7 +22,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import justinkim.fetch.model.FetchItem
-import justinkim.fetch.ui.theme.FetchRewardsExerciseTheme
+import justinkim.fetch.theme.FetchRewardsExerciseTheme
 import kotlinx.coroutines.flow.StateFlow
 
 class MainActivity : ComponentActivity() {

@@ -1,4 +1,4 @@
-package justinkim.fetch.ui.theme
+package justinkim.fetch.theme
 
 import android.app.Activity
 import androidx.compose.foundation.isSystemInDarkTheme

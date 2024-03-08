@@ -1,4 +1,4 @@
-package justinkim.fetch.ui.theme
+package justinkim.fetch.theme
 
 import androidx.compose.ui.graphics.Color
 
