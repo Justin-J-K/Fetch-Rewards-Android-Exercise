@@ -17,10 +17,6 @@ class MainActivityViewModel : ViewModel() {
         get() = _items.asStateFlow()
 
     init {
-        refreshFetchItems()
-    }
-
-    fun refreshFetchItems() {
         viewModelScope.launch {
             _items.value = fetchRepository.fetchSortedValidItems()
         }
