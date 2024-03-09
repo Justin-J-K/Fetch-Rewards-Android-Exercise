@@ -2,6 +2,8 @@
 
 A native Android mobile application that queries JSON data from https://fetch-hiring.s3.amazonaws.com/hiring.json and displays it as a list of items that are sorted by name and grouped by list ID. Each group has a header in the list. This exercise is part of an application to Fetch Rewards, and created by Justin Kim.
 
+The application uses a Model-View-ViewModel architecture. It also utilizes Retrofit, Gson, StateFlows, and Jetpack Compose to query an API, deserialize JSON data, use reactive programming, and create a user interface.
+
 ## Exercise Requirements
 
 * Items grouped by `listId`
